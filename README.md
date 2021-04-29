@@ -17,6 +17,9 @@
         - Staker can receive rewards ( `RewardToken` ) depends on their `share of pool` when they claim rewards.
 - ⑤ Claim rewards and distributes rewards into claimed-staker.
   (or, Un-Stake UNI-V2 LP tokens. At that time, claiming rewards will be executed at the same time)
+  
+- Diagram of workflow.![scheme](https://user-images.githubusercontent.com/16697678/116536664-4223dd80-a8f6-11eb-8205-8610b4bfafa4.jpg)
+
 
 
 ***
