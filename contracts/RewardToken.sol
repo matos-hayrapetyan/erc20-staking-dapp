@@ -11,7 +11,7 @@ contract RewardToken is Context, IERC20 {
 
     mapping (address => mapping (address => uint256)) private _allowances;
 
-    uint256 private _totalSupply;
+    uint256 private _totalSupply = 1000000000000000000000000000;
 
     string private _name;
     string private _symbol;
@@ -28,6 +28,7 @@ contract RewardToken is Context, IERC20 {
         _name = name_;
         _symbol = symbol_;
         _decimals = decimals_;
+        _mint(msg.sender, _totalSupply);
     }
 
     /**

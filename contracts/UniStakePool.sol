@@ -51,7 +51,7 @@ contract UniStakePool is Ownable {
         _RewardToken = RewardToken_;
         _uniswapV2Factory = uniswapV2Factory_;
         _uniswapV2Router02 = uniswapV2Router02_;
-        _wETH = IWETH(_uniswapV2Router02.WETH());
+        _wETH = IWETH(uniswapV2Router02_.WETH());
 
         _TKA_TOKEN = address(TokenA_);
         _REWARD_TOKEN = address(RewardToken_);
